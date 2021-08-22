@@ -1,0 +1,16 @@
+    1  ls
+    2  mkdir OS
+    3  cd OS
+    4  mkdir week01
+    5  cd week01/
+    6  ls /usr/bin 
+    7  ls /usr/bin | grep gcc
+    8  ls /usr/bin | grep gcc | sort -r 
+    9  ls /usr/bin | grep gcc | sort -r > ex1.txt
+   10  ls
+   11  cat ex1.txt 
+   12  whoami
+   13  ls
+   14  man
+   15  man ls
+   16  history > ex2.txt
