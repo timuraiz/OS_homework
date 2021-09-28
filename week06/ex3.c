@@ -161,12 +161,11 @@ void roundr(int* arrival, int* burst,int* wt,int quantum,int size){
                 rem_bt[i]-=quantum;
                 undone = 1;
             }
-            else{
+            else if (rem_bt[i] > 0){
                 T+=rem_bt[i];
                 wt[i] = T - burst[i] - arrival[i];
                 rem_bt[i] = 0;
             }
-
         }
     }
 
