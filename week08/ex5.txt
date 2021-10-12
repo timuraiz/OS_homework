@@ -1,0 +1,3 @@
+Physical address is just an address of physical memory in RAM
+Virtual address is some address viewed by process. It can be the same as physical memory, 
+as well as some other that is mapped to physical memory by MMU.

@@ -1,0 +1,5 @@
+16b implies => 2^16 addresses
+
+page 8kb => 2^13b
+
+so, the ans would be (2^16)/(2^13) => 8 entries
