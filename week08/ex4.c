@@ -5,19 +5,18 @@
 #include <sys/resource.h> 
 
 int main() {
-  int size = 10 * 1024 * 1024;    // 10 MB size
+  int size = 10 * 1024 * 1024;    
   struct rusage usage;
   int RUSAGE_SELF;
 
   for (int i = 0; i < 10; i++) {
-    void* ptr = malloc(size);             // allocating 10 MB memory
-    memset(ptr, 0, size);                 // filling it with '0'
+    void* ptr = malloc(size);             
+    memset(ptr, 0, size);                 
 
-    getrusage(RUSAGE_SELF, &usage);       // retrieving information about memory usage
-    printf("%ld KB\n", usage.ru_maxrss);  // printing 
+    getrusage(RUSAGE_SELF, &usage);       
+    printf("%ld KB\n", usage.ru_maxrss);  
 
-    sleep(1);                             // sleep for 1 sec at each iteration
-  }
+    sleep(1);                            
 
   return 0;
 }
