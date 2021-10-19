@@ -1,0 +1,9 @@
+Test where hits/miss ratio is equal to 1.
+
+2 4		// there is occur intializing of number of page that virtual memory can keep at the same time(n) and number of requests to specific pages(m) 
+1 1		// there we requested to page with id 1 and in a clock cycle 1
+2 1		// there is again we requested to previous page but in another clock cycle which is equal to 2. It means that number of hits will be increased by one. 
+3 1		// the same action as in a previous row. Number of hits will increased by one.
+4 2		// requstinng to another page
+
+So, in total we have 2 hits and 2 misses if we take a ratio, we will get 1.000. Let's sum up what that example represent us and what we can conclude from this. If often try to request to same page, number of hits will be increasing, what we accordingly get.
