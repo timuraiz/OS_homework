@@ -1,0 +1,7 @@
+total 8
+1459275 -rw-rw-r-- 3 timur timur   0 Oct 26 21:59 _ex1_1.txt
+1459275 -rw-rw-r-- 3 timur timur   0 Oct 26 21:59 _ex1_2.txt
+1459275 -rw-rw-r-- 3 timur timur   0 Oct 26 21:59 _ex1.txt
+1459276 -rw-rw-r-- 1 timur timur   0 Oct 26 22:00 ex1.txt
+1459273 -rw-rw-r-- 1 timur timur 228 Oct 26 21:58 ex2.sh  //from the 2nd task
+1459274 -rw-rw-r-- 1 timur timur  35 Oct 26 21:56 ex2.txt //from the 2nd task

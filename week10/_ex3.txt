@@ -1,0 +1,13 @@
+  348  touch _ex3.txt
+  349  echo Hi, my name is Timur Aizatvafin >> _ex3.txt
+  350  chmode a-x _ex3.txt 
+  351  chmod a-x _ex3.txt
+  352  history > _ex3.txt 
+  353  chmod a-x _ex3.txt
+  354  chmod uo=rwx _ex3.txt
+  355  history > _ex3.txt 
+  356  chmod g=rwx _ex3.txt
+  357  history > _ex3.txt 
+1)user - can read and Write, group - can read and write,others - can do nothing
+2)user - can do everything, group - can do everything, others - can read and execute
+3)user  - can do everything, group -  can do everything, others -  can do everything
