@@ -51,4 +51,11 @@
   d260-d26f : 0000:00:0d.0
     d260-d26f : ahci
 
+QUESTIONS:
+1)What are dma1, pic1 and timer1?
+-dma is a Direct Memory Access (DMA) device. Allows peripherals to access main memory without using the CPU. Using the dma1 I / O ports, devices can access some areas of RAM.
+-pic is a programmable interrupt controller that can queue and prioritize interrupts for the processor to execute.
+-timer is hardware interrupt timer. 
+2) What do they represent?
+They represent the device names of the first column in I\O port range.
 
