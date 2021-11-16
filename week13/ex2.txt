@@ -1,0 +1,12 @@
+1) Detection and Recovery - requires keeping log of ownership, but generally 
+is a good option as it does not cost much
+
+2) Avoidance - the most difficult option. The reason is that a system has to 
+anticipate the deadlock. All resource requests are done in a safe order, 
+which is not time-efficient. Also it has to store information about all 
+resources, which is not memory-efficient. But the adventage is that this method 
+is dynamic 
+
+3) Prevention - relatively simple option, just make 1 out of 4 conditions false.
+The adventage is that no cost involved, but it can not be applied always. 
+Sometimes changing conditions is not an option
