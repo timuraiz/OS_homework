@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1450	    544	      8	   2002	    7d2	ex1.out
